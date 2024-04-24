@@ -15,3 +15,14 @@ function login(){
         alert("Incorrect username or password");
     }
 }
+
+ScrollReveal().reveal('.anm1', {
+    scale: 0.85, duration: 1000
+},);
+
+ScrollReveal().reveal('.flip', {
+    rotate: {
+        x: 20,
+        z: 20
+    }
+});
